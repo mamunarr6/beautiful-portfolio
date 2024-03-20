@@ -223,3 +223,47 @@ main {
     color: #757575;
     line-height: 25px;
 }
+
+footer {
+    background-color: #FFF8F3;
+    padding: 50px 0;
+}
+
+.footer-section {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    gap: 100px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.footer-column-title {
+    font-size: 35px;
+    color: #181818;
+    /* text-align: center; */
+    padding: 0 30px 30px 0;
+}
+
+.footer-column-text {
+    font-size: 16px;
+    color: #474747;
+    padding: 0 0 50px 0;
+}
+
+.contact>input,
+textarea {
+    display: block;
+    width: 100%;
+    border: none;
+    margin-bottom: 20px;
+    padding: 20px 10px;
+    font-size: 18px;
+}
+
+.social-link a {
+    margin-right: 10px;
+}
